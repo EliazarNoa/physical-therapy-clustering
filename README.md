@@ -2,15 +2,17 @@
 
 Este proyecto utiliza algoritmos de clustering para analizar datos recopilados mediante sensores de movimiento vestibles durante sesiones de terapia física. Los sensores registran ejecuciones de ejercicios realizados por pacientes. Implementamos el algoritmo MTMM-DTW para detectar y evaluar secuencias de ejercicios, proporcionando una clasificación objetiva de la ejecución y contabilizando el número de repeticiones. El sistema autónomo permite un monitoreo preciso y automatizado, brindando información valiosa tanto a los pacientes como a los especialistas en terapia física. El repositorio en GitHub contiene notebooks que cubren desde el análisis exploratorio hasta la evaluación del modelo, junto con archivos fuente y resultados. 
 
---- 
+---
+
+
 
 ## Estructura del Proyecto
 
--`data/`: Contiene el conjunto de datos y cualquier archivo relacionado.
--`notebooks/`: Notebooks de Jupyter que abarcan el análisis exploratorio, la ingeniería de características y el modelado.
--`src/`: Código fuente, incluyendo implementaciones de algoritmos como MTMM-DTW y funciones de clustering.
--`results/`: Resultados del proyecto, como archivos CSV y visualizaciones.
--`results/images/`: Imágenes generadas por el proyecto.
+- `data/`: Contiene el conjunto de datos y cualquier archivo relacionado.
+- `notebooks/`: Notebooks de Jupyter que abarcan el análisis exploratorio, la ingeniería de características y el modelado.
+- `src/`: Código fuente, incluyendo implementaciones de algoritmos como MTMM-DTW y funciones de clustering.
+- `results/`: Resultados del proyecto, como archivos CSV y visualizaciones.
+- `results/images/`: Imágenes generadas por el proyecto.
 
 ## Notebooks
 
@@ -22,12 +24,12 @@ Este proyecto utiliza algoritmos de clustering para analizar datos recopilados m
 
 ## Código Fuente
 
--`src/mtmm_dtw.py`: Implementación del algoritmo MTMM-DTW.
--`src/clustering.py`: Funciones para realizar el clustering de los datos.
+- `src/mtmm_dtw.py`: Implementación del algoritmo MTMM-DTW.
+- `src/clustering.py`: Funciones para realizar el clustering de los datos.
 
 ## Resultados
 
--`results/clustering_results.csv`: Archivo CSV con los resultados del clustering.
+- `results/clustering_results.csv`: Archivo CSV con los resultados del clustering.
 
 ## Contribuir
 
